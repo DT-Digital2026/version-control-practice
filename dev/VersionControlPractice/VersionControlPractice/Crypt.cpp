@@ -5,4 +5,8 @@ void Crypt::DisplayMessage() // Declaration for .h file
 {
     std::cout << "Warning: Unathorized souls detected!\n";
     std::cout << "The crypt keeper has awakened!\n";
+
+    std::cout << "\n----------Crypt Menu----------\n"; 
+    std::cout << "1. Enter the Crypt\n"; 
+    std::cout << "2. Flee\n"; 
 }
